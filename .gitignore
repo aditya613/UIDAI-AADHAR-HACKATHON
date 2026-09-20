@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.env
+
+# Data Files (Do not commit large datasets or sensitive UIDAI data)
+data/
+*.csv
+*.geojson
+*.json
+!stats.json
+*.db
+*.sqlite3
+
+# Logs
+outputs/logs/
+*.log
+run_log*.txt
+
+# Dashboard output htmls
+outputs/
+dashboard_output_*.html
+output/
+api_data_aadhar_biometric/
+api_data_aadhar_demographic/
+api_data_aadhar_enrolment/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
